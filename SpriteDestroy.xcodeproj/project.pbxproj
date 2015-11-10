@@ -14,6 +14,7 @@
 		1DB2CF8E1BF0BF7F0069EAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2CF8C1BF0BF7F0069EAB3 /* LaunchScreen.storyboard */; };
 		1DB2CF991BF0BF7F0069EAB3 /* SpriteDestroyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2CF981BF0BF7F0069EAB3 /* SpriteDestroyTests.swift */; };
 		1DB2CFA41BF0BF7F0069EAB3 /* SpriteDestroyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2CFA31BF0BF7F0069EAB3 /* SpriteDestroyUITests.swift */; };
+		1DB2CFB41BF0C0000069EAB3 /* SpriteDestroy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2CFB31BF0C0000069EAB3 /* SpriteDestroy.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1DB2CF9F1BF0BF7F0069EAB3 /* SpriteDestroyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteDestroyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2CFA31BF0BF7F0069EAB3 /* SpriteDestroyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteDestroyUITests.swift; sourceTree = "<group>"; };
 		1DB2CFA51BF0BF7F0069EAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB2CFB31BF0C0000069EAB3 /* SpriteDestroy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteDestroy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1DB2CF771BF0BF7F0069EAB3 = {
 			isa = PBXGroup;
 			children = (
+				1DB2CFB31BF0C0000069EAB3 /* SpriteDestroy.swift */,
 				1DB2CF821BF0BF7F0069EAB3 /* SpriteDestroy */,
 				1DB2CF971BF0BF7F0069EAB3 /* SpriteDestroyTests */,
 				1DB2CFA21BF0BF7F0069EAB3 /* SpriteDestroyUITests */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB2CFB41BF0C0000069EAB3 /* SpriteDestroy.swift in Sources */,
 				1DB2CF861BF0BF7F0069EAB3 /* ViewController.swift in Sources */,
 				1DB2CF841BF0BF7F0069EAB3 /* AppDelegate.swift in Sources */,
 			);
